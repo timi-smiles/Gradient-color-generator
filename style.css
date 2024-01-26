@@ -105,7 +105,39 @@ body{
        }
        .colors input {
         height: 41px;
-        width: calc(100%/2 -2px);
+        width: 46px;
+        align-items: center;
+    }
+    .wrapper textarea {
+        width: 100%;
+        color: #333;
+        border-radius: 5px;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        resize: none;
+        font-size: 1.05rem;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 450px) {
+	.wrapper {
+        background: #ffff;
+        width: 450px;
+        margin: 30px;
+        padding: 25px;
+        border-radius: 7px;
+    }
+    .select-box  select {
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        background: none;
+        word-wrap: break-word;
+       }
+       .colors input {
+        height: 41px;
+        width: 40px;
         align-items: center;
     }
 }
