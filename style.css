@@ -85,3 +85,27 @@ body{
 .buttons .copy{
     background: #8a6cff;
 }
+
+
+@media only screen and (max-width: 600px) {
+	.wrapper {
+        background: #ffff;
+        width: 450px;
+        margin: 30px;
+        padding: 25px;
+        border-radius: 7px;
+    }
+    .select-box  select {
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        background: none;
+        word-wrap: break-word;
+       }
+       .colors input {
+        height: 41px;
+        width: calc(100%/2 -2px);
+        align-items: center;
+    }
+}
